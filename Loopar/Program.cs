@@ -12,8 +12,6 @@ namespace Loopar
       string name = "";
       string password = "";
 
-      //  || (name == "herbert" && password == "123")
-
       while (!(name == "micke" && password == "sallad") && !(name == "herbert" && password == "123"))
       {
         System.Console.WriteLine("Skriv in ditt namn: ");
